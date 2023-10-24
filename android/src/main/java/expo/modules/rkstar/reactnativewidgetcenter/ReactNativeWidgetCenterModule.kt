@@ -13,8 +13,8 @@ class ReactNativeWidgetCenterModule : Module() {
     // The module will be accessible from `requireNativeModule('ReactNativeWidgetCenter')` in JavaScript.
     Name("ReactNativeWidgetCenter")
 
-    function("reloadAllTimelines") {
-      return null;
+    Function("reloadAllTimelines") {
+      return "Not available on android.";
     }
   }
 }
