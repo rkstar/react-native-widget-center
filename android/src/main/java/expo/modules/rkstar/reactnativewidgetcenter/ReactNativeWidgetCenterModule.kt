@@ -1,4 +1,4 @@
-package expo.modules.widgetcenter
+package expo.modules.rkstar.reactnativewidgetcenter
 
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
