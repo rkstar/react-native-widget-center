@@ -14,7 +14,7 @@ class ReactNativeWidgetCenterModule : Module() {
     Name("ReactNativeWidgetCenter")
 
     Function("reloadAllTimelines") {
-      return "Not available on android.";
+      // do nothing
     }
   }
 }
