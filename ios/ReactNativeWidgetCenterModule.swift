@@ -16,10 +16,12 @@ public class ReactNativeWidgetCenterModule: Module {
     Name("ReactNativeWidgetCenter")
 
     Function("reloadAllTimelines") {
-      () -> void
+      () -> String
       #if arch(arm64) || arch(x86_64) || targetEnvironment(macCatalyst)
         WidgetCenter.shared.reloadAllTimelines()
       #endif
+
+      return "Success"
     }
   }
 }
